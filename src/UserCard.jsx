@@ -4,19 +4,36 @@ const userData = [
   {
     name: "Maddy",
     city: "Chennai",
-    description: "Mern-stack-developer",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Tailwind CSS", "Responsive Design"],
+    description: "MERN Stack Developer",
+    skills: [
+        "JavaScript",
+        "React.js",
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "RESTful APIs",
+        "Git & GitHub"
+    ],
     online: false,
     profile: "images/mypic3.jpg",
-  },
+},
+
   {
     name: "Surya",
     city: "Sivagangai",
-    description: "Java Developer",
-    skills: ["Java", "Spring Boot", "Hibernate", "SQL", "REST API", "Maven", "JUnit"],
+    description: "Digital Marketer",
+    skills: [
+        "Search Engine Optimization (SEO)",
+        "Search Engine Marketing (SEM)",
+        "Content Marketing",
+        "Social Media Management",
+        "Email Marketing",      
+    ],
     online: true,
     profile: "images/surya1.jpeg",
-  },
+},
+
   {
     name: "Ajay",
     city: "Bangalore",
@@ -38,9 +55,17 @@ const userData = [
     city: "Coimbatore",
     description: "Human Resource",
     skills: ["Recruitment", "Employee Relations", "HR Policies", "Payroll Management", "Training & Development"],
-    online: false,
+    online: true,
     profile: "images/Naveen.jpg",
   },
+  {
+    name: "Hari prasath",
+    city: "Nagaland",
+    description: "M.Tech in Computer Science",
+    skills: ["Data Structures", "Algorithms", "Machine Learning", "Cloud Computing", "Database Management", "Software Development"],
+    online: false,
+    profile: "images/pappu.jpeg",
+},
 ];
 
     
