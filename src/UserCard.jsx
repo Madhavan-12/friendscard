@@ -40,7 +40,7 @@ const userData = [
     description: "Data Analyst",
     skills: ["Python", "Pandas", "NumPy", "SQL", "Tableau", "Data Cleaning", "Excel"],
     online: false,
-    profile: "images/ajay2.jpeg",
+    profile: "images/ajay1.jpeg",
   },
   {
     name: "Dinesh",
@@ -48,7 +48,7 @@ const userData = [
     description: "UPSC Aspirant",
     skills: ["Current Affairs", "Indian Polity", "History", "Geography", "Economics", "Essay Writing"],
     online: true,
-    profile: "images/paagal.jpeg",
+    profile: "images/dinesh2.jpeg",
   },
   {
     name: "Navin Kumar",
@@ -75,7 +75,12 @@ function User(props){
     return(
         <div className="card-container">
            <span className={props.online ? "pro online":"pro offline"}>{props.online?"ONLINE":"OFFLINE"}</span>
-           <img src={props.profile} className="img" alt="user"/>
+            <img
+                src={props.profile}
+                className="img"
+                alt="user"
+                style={props.name === "Ajay" ? { objectPosition: "center 40%" } : {}}
+            />
            <h3>{props.name}</h3>
            <h3>{props.city}</h3>
            <p>{props.description}</p>
